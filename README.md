@@ -1,5 +1,5 @@
 # spring_highchart
-This is a project about spring.boot and highchart
+This is a project about spring.boot and highcharts
 
 You can use localhost:8080/ai_score.html to test the GET
    and localhost:8080/ai_score_post.html to test the POST
