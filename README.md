@@ -7,7 +7,7 @@ You can use localhost:8080/ai_score.html to test the GET
 This program is about spring.boot, ModelAndView, dao.
 
 You should use mysql, and create database demo, then create a table ai_score.
-The colomn of ai_score:
+The column of ai_score:
    id int(3)
    score int(2)
    count bigint
