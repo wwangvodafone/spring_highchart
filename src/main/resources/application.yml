@@ -1,0 +1,23 @@
+
+server:
+    port: 8080
+
+spring:
+    datasource:
+      url: jdbc:mysql://localhost:3305/demo
+      username: root
+      password: wangyx2007
+      driverClassName: com.mysql.cj.jdbc.Driver
+    thymeleaf:
+      mode: HTML
+      enabled: true
+      cache: false
+      prefix: classpath:/templates/
+      suffix: .html
+    web:
+      resources:
+        static-locations: classpath:/templates/
+
+logging:
+  file:
+    path: /home/ec2-user/spring
